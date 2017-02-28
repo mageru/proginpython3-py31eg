@@ -13,8 +13,9 @@ import os
 import pickle
 import shelve
 import sys
+
 import Console
-import Util
+from chapter4 import Util
 
 
 def main():

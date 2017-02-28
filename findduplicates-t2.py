@@ -14,13 +14,11 @@ locale.setlocale(locale.LC_ALL, "")
 
 import collections
 import hashlib
-import itertools
 import optparse
 import os
 import queue
-import sys
 import threading
-import Util
+from chapter4 import Util
 
 
 class Worker(threading.Thread):

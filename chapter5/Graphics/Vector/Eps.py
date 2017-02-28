@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import Graphics.Png as Png
+import chapter5.Graphics.Png as Png
 
 def load(filename):
     print("eps: load", filename)

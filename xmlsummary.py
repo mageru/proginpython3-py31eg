@@ -15,8 +15,8 @@ import queue
 import threading
 import xml.etree.ElementTree
 import xml.parsers.expat
-import Util
 
+from chapter4 import Util
 
 if hasattr(xml.etree.ElementTree, "ParseError"): # Python 3.2
     class Worker(threading.Thread):

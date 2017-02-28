@@ -121,7 +121,8 @@ True
 """
 
 import struct
-import BinaryRecordFile_ans as BinaryRecordFile
+
+from chapter7 import BinaryRecordFile_ans as BinaryRecordFile
 
 
 class Bike:

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from .. import Png
+from chapter5.Graphics import Png
 
 
 def load(filename):

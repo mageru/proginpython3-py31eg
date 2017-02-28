@@ -17,9 +17,9 @@ import tempfile
 import xml.etree.ElementTree
 import xml.parsers.expat
 import xml.sax.saxutils
-import Console
-import Util
 
+import Console
+from chapter4 import Util
 
 DISPLAY_LIMIT = 20
 

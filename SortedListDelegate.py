@@ -110,8 +110,7 @@ Traceback (most recent call last):
 IndexError: pop index out of range
 """
 
-import Util
-
+from chapter4 import Util
 
 _identity = lambda x: x
 
