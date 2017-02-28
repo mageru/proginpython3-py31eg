@@ -47,7 +47,7 @@ False
 "{'E': 2, 'I': 3, 'N': 4, 'S': 5, 'V': 1}"
 """
 
-import SortedList
+from chapter6 import SortedList
 
 
 class SortedDict(dict):

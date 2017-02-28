@@ -121,7 +121,8 @@ True
 """
 
 import struct
-import BinaryRecordFile
+
+from chapter3 import BinaryRecordFile
 
 
 class Bike:
@@ -201,7 +202,7 @@ class BikeStock:
 
     def __init__(self, filename):
         self.__file = BinaryRecordFile.BinaryRecordFile(filename,
-                                                _BIKE_STRUCT.size)
+                                                        _BIKE_STRUCT.size)
         self.__index_from_identity = {}
         for index in range(len(self.__file)):
             record = self.__file[index]

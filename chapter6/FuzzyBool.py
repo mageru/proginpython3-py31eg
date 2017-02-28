@@ -38,7 +38,7 @@ TypeError: unsupported operand type(s) for +: 'FuzzyBool' and 'FuzzyBool'
 2
 """
 
-import Util
+from chapter4 import Util
 
 
 @Util.complete_comparisons # Superceded by functools.total_ordering
